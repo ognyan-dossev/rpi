@@ -14,3 +14,6 @@ while count > 0:
     print ("To LED LOW")
     sleep(1)
     count=count-1
+
+GPIO.output(pin,0)
+GPIO.cleanup()
